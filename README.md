@@ -1,30 +1,67 @@
-# Retail Superstore Sales Analytics Dashboard using AI & Power BI
+🛍️ Retail Superstore Sales Analytics Dashboard using Power BI & AI
+📊 An interactive Power BI dashboard project analyzing retail sales and profit trends to drive actionable business decisions. Integrated with AI (ChatGPT) for automated insight generation and stakeholder communication.
 
-This is a beginner-level interactive sales and profit analysis dashboard built in **Power BI** using **Superstore dataset**.
+📁 Project Overview
+This project explores a retail superstore dataset to uncover key insights about sales, discounts, customer segments, and product performance. It demonstrates the complete data analytics lifecycle—from cleaning to visual storytelling—with AI-enhanced interpretation.
 
-## 🔍 Project Summary
+🎯 Objectives
+Identify trends in sales, profit, and discount impact
 
-**Objective:**  
-Uncover key sales and profit patterns to support decisions on discounts, product categories, regional sales, and customer segments.
+Discover underperforming regions and product categories
 
-**Tools Used:**  
-- Power BI  
-- Excel (Preprocessing)  
-- ChatGPT (AI insights)
+Provide business recommendations for profitability
 
-**Key Insights:**  
-- 📌 Chairs category had highest revenue but low profit due to discounts.  
-- 🌍 West region led in total sales.  
-- ⚠️ Discounts >20% led to frequent losses.  
-- 🧑‍💼 Corporate customers ordered frequently with low average profit.
+Utilize AI (ChatGPT) to generate insight summaries
 
-**Outcome:**  
-Helped identify discount inefficiencies, target regional & segment-specific improvements, and showed complete analytics lifecycle.
+🧰 Tools & Technologies
+Power BI – Dashboard creation and data modeling
 
-## 📄 Project File
+Excel – Initial data cleaning and formatting
 
-👉 [Download the Dashboard PDF](Retail_Superstore_Sales_Analytics_AI_PowerBI.pdf)
+ChatGPT – Insight explanation, stakeholder-ready summaries
 
----
+GitHub – Project version control and hosting
 
-Created by [Laya](https://github.com/Laya-analytics) for Data Analyst roles.
+🧹 Data Summary & Cleaning
+Dataset: Superstore (9,994 rows × 21 columns)
+
+Handled null values, standardized date/time formats
+
+Removed duplicates and reformatted product categories
+
+Created custom DAX measures for calculated metrics
+
+📌 Key Insights
+Chairs had highest sales but lowest profit due to over-discounting (>20%)
+
+West region led in total sales, 85% higher than the South
+
+Corporate customers ordered often but had low profit margins
+
+Discounts above 20% consistently led to negative profits
+
+💡 Business Recommendations
+Limit discounting above 20%, especially for Chairs and Phones
+
+Focus campaigns on Consumer segment in West and Central
+
+Promote high-profit sub-categories (Copiers, Phones) in underperforming regions
+
+🤖 AI Integration (ChatGPT)
+ChatGPT was used to:
+
+Generate narrative summaries of dashboard visuals
+
+Provide business-ready interpretations and prompts
+
+Example Prompt: “Explain why profits drop when discounts exceed 20% and suggest a corrective action.”
+
+🔗 Project Files
+📄 Final Project Report PDF: Retail_Superstore_Sales_Analytics_AI_PowerBI.pdf
+
+👩‍💻 Author
+Laya-analytics
+GitHub Profile
+
+✅ How to Use
+This project is for learning and showcasing Power BI skills. Clone the repo, explore the report PDF, or replicate it using the Superstore Dataset.
